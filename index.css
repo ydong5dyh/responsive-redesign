@@ -1,1 +1,131 @@
 /* Put your style information here! */
+body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 80px;
+  grid-template-columns: 1fr 300px 300px 300px 300px 1fr;
+  grid-template-rows: 250px 280px 30px auto 30px auto 30px auto 30px auto 30px auto 30px;
+  font-family: Century Gothic, AppleGothic, sanr-serif;
+}
+h1 {
+  grid-column: 2 / 4;
+  text-align: left;
+  font-size: 40px;
+  margin-left: 120px;
+}
+p {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 20px;
+  line-height: 150%;
+}
+li {
+  margin-left: 120px;
+  margin-right: 120px;
+  font-size: 20px;
+  line-height: 150%;
+}
+figcaption {
+  border: 1px dotted gray;
+  text-align: center;
+  margin-right: 135px;
+}
+.usablity {
+  margin-right: 20px;
+}
+.topic {
+  grid-column: 4 / 5;
+  grid-row: 1;
+  margin-left: 0px;
+  font-size: 70px;
+}
+.intro {
+  margin-left: 260px;
+  margin-right: 100px;
+  grid-column: 3 / 6;
+  grid-row: 2;
+}
+.problem {
+  border: 1px dotted;
+  grid-row: 3;
+}
+.original {
+  grid-column: 4 / 6;
+  grid-row: 4;
+  margin-top: 100px;
+}
+.analysis {
+  grid-column: 2 / 4;
+  grid-row: 4;
+}
+.lowfi {
+  border: 1px dotted;
+  grid-row: 5;
+}
+.div1 {
+  grid-column: 2 / 6;
+  grid-row: 6;
+}
+.highfi {
+  border: 1px dotted;
+  grid-row: 7;
+}
+.div2 {
+  grid-column: 2 / 6;
+  grid-row: 8;
+}
+.styleguide {
+  border: 1px dotted;
+  grid-row: 9;
+}
+.div3 {
+  grid-column: 2 / 6;
+  grid-row: 10;
+}
+.responsive {
+  border: 1px dotted;
+  grid-row: 11;
+}
+
+.div4 {
+  grid-column: 2 / 6;
+  grid-row: 12;
+}
+.lowfifig {
+  display: inline-block;
+  margin: 10px 20px 10px 20px;
+}
+.highfifig {
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+  border: 1px dotted;
+}
+.responsivefig {
+  display: inline-block;
+  margin: 10px 0px 10px 0px;
+  border: 1px dotted;
+}
+#logo {
+  grid-column: 2 / 5;
+  grid-row: 1;
+  width: 50%;
+  margin: 200px 60px 100px 140px;
+}
+#website {
+  grid-column: 2 / 6;
+  width: 80%;
+  margin: 30px 0px 20px 0px;
+  border: 1px dotted black;
+}
+#websitecaption {
+  border: 1px dotted gray;
+  text-align: center;
+  margin: 0px 220px 50px 160px;
+}
+footer {
+  grid-column: 2 / 6;
+  grid-row: 13;
+  text-align: right;
+  margin-right: 400px;
+}
